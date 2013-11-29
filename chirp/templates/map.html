@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='lib/d3/d3.js') }}"></script>
+<script src="{{ url_for('static', filename='lib/topojson/topojson.js') }}"></script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+{% endblock %}
+
+{% block styles %}
+<link href="{{ url_for('static', filename='css/map.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div id="map"></div>
+
+
+{% endblock %}

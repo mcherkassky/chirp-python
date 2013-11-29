@@ -1,0 +1,61 @@
+input::-webkit-input-placeholder {
+   font-weight:100
+}
+
+/* For Mozilla Firefox */
+
+input:-moz-placeholder {
+    font-weight:100
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+    margin-left: 82px !important;
+    margin-top: -25px !important;
+}
+
+.datepicker-dropdown:before {
+    border-left: none !important;
+    border-right:none !important;
+}
+
+.datepicker-dropdown:after {
+    border-left: none !important;
+    border-right:none !important;
+}
+
+.input-small {
+    opacity:0;
+    position: relative;
+    margin-left:20px;
+    width:80px
+}
+
+.calendar-widget{
+    height:90px;
+    width:80px;
+    padding:0;
+    margin-right:0;
+    margin-left:20px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.date-header {
+    font-weight:100;
+    color:white;
+    background-color:#FA5642;
+    text-align:center;
+    border-bottom:1px solid #ccc
+}
+
+.date-date{
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.date-month{
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
