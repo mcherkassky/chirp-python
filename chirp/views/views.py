@@ -69,7 +69,7 @@ def offers():
 def campaigns():
     data = request.json
     import pdb; pdb.set_trace()
-    Ad.build_from_json()
+    Ad.build_from_json(data)
 
 
 @app.route('/offers/<offer_id>', methods=['POST'])

@@ -13,7 +13,7 @@ class Url(Document):
     ip = DictField()
 
     def record_ip(self, ip):
-        dict_ip = ip.replace('.','-')
+        dict_ip = ip.replace('.', '-')
         try:
             self.ip[dict_ip] += 1
         except:
@@ -58,11 +58,28 @@ class Ad(Document):
     img = StringField()
 
     bid = FloatField()
+    budget = FloatField()
+
     title = StringField()
+
+    start_date = DateTimeField()
+    end_date = DateTimeField()
 
     owner = ObjectIdField()
 
     claimed = BooleanField(default=False)
+
+    @classmethod
+    def build_from_json(cls, json):
+        response = cls()
+        response.url = json['url']
+        response.bid = float(json['cpc'])
+        response.budget = float(json['budget'])
+        response.start_date = json['start_date']
+        response.end_date = json['end_date']
+        response.img = json['img']
+
+        return response
 
     def serialize(self):
         response = dict()
