@@ -2,21 +2,6 @@ var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap'], functio
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 
-//    $routeProvider.when('/admin',{
-//         templateUrl:'static/html/admin/accounts.html',
-//         controller: 'AccountCtrl'
-//    });
-
-    // $routeProvider.when('/admin/accounts/:account_id',{
-    //     templateUrl:'/static/html/admin/users.html',
-    //     controller: 'UserCtrl'
-    // });
-
-    // $routeProvider.otherwise({
-    //     controller: "404Ctrl",
-    //     template: "<div></div>"
-    // });
-
     $locationProvider.html5Mode(true);
 });
 
@@ -71,6 +56,13 @@ app.factory('OfferFactory', function($resource){
 
 app.factory('UrlFactory', function($resource){
     return $resource('/offers/:id/url',{id: '@id'},
+        {
+            edit: {method:"PUT"}
+        })
+});
+
+app.factory('CampaignFactory', function($resource){
+    return $resource('/campaigns/:id',{id: '@id'},
         {
             edit: {method:"PUT"}
         })
@@ -136,19 +128,29 @@ app.controller('CollapseCtrl', function($scope, $timeout, OfferFactory, UrlFacto
     }
 });
 
-app.controller('CampaignCtrl', function($scope, $rootScope, $timeout){
-    var currentDate = new Date()
+app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $timeout){
+    var currentDate = new Date();
     $scope.start_date = {month: $rootScope.monthNames[currentDate.getMonth()],
-                        day: currentDate.getDate()};
+                        day: currentDate.getDate(),
+                        date: currentDate};
 
     $scope.end_date = {month: $rootScope.monthNames[currentDate.getMonth()],
-                        day: currentDate.getDate()};
+                        day: currentDate.getDate(),
+                        date:currentDate};
 
     $('.input-daterange').datepicker()
         .on('changeDate', function(e){
             $scope.$apply(function(){
                 $scope[$(e.target).attr('ng-model')]['day'] = e.date.getDate();
                 $scope[$(e.target).attr('ng-model')]['month'] = $rootScope.monthNames[e.date.getMonth()];
+                $scope[$(e.target).attr('ng-model')]['date'] = e.date
             })
-        })
+        });
+
+    $scope.new_campaign = function(){
+        $scope.campaign.start_date = $scope.start_date.date;
+        $scope.campaign.end_date = $scope.end_date.date;
+
+        CampaignFactory.save($scope.campaign)
+    }
 });

@@ -65,6 +65,13 @@ def offers():
     offers = Ad.objects.all()
     return json.dumps([offer.serialize() for offer in offers])
 
+@app.route('/campaigns', methods=['POST'])
+def campaigns():
+    data = request.json
+    import pdb; pdb.set_trace()
+    Ad.build_from_json()
+
+
 @app.route('/offers/<offer_id>', methods=['POST'])
 def offer_id(offer_id):
     offer = Ad.objects.get(id=offer_id)
