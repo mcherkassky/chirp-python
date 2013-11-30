@@ -1,0 +1,46 @@
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="{{ url_for('static', filename='lib/bootstrap/js/bootstrap.min.js') }}"></script>
+<script type="text/javascript">
+    setTimeout(function(){
+        $('#first').css('opacity',1)
+    },0)
+    setTimeout(function(){
+        $('#second').css('opacity',1)
+    },400)
+    setTimeout(function(){
+        $('#third').css('opacity',1)
+    },800)
+</script>
+
+<link href="{{ url_for('static', filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+<style type="text/css">
+    .uncover{
+        opacity:0;
+        -moz-transition:all 0.5s ease-in-out;
+        -webkit-transition:all 0.5s ease-in-out;
+        -ms-transition:all 0.5s ease-in-out;
+        -o-transition:all 0.5s ease-in-out;
+        transition:all 0.5s ease-in-out;
+    }
+</style>
+
+<div style="text-align:center">
+    <h1 style="font-weight:200">
+        <span id="first" class="uncover">Discover. </span>
+        <span id="second" class="uncover">Share. </span>
+        <span id="third" class="uncover">Earn.</span>
+    </h1>
+    <a class="btn btn-primary" href='{{url_for("send_token")}}' onclick="
+        var authWindow= window.open(this.href, '', 'left=100,top=100,width=500,height=300,toolbar=0,resizable=1');
+        var authenticationSuccessUrl = 'http://127.0.0.1:5000/home';
+        var timer = setInterval(function() {
+            if(authWindow.closed) {
+                clearInterval(timer);
+                window.location = authenticationSuccessUrl;
+            }
+        }, 1000);
+        return false;">
+        Sign in with Twitter
+    </a>
+</div>

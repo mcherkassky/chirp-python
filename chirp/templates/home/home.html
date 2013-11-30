@@ -1,0 +1,95 @@
+{% extends "base/base.html" %}
+
+{% block styles %}
+{% endblock %}
+
+{% block scripts %}
+    <script type='text/javascript' src="{{ url_for('static', filename='lib/zclip/jquery.zclip.min.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div ng-controller="OfferCtrl">
+        <ul ng-repeat="offer in offers" ng-controller="CollapseCtrl" style="list-style:none; padding:0" class="thumbnails">
+            <li>
+                <div class="thumbnail clearfix" ng-mouseenter="show_actions=!show_actions" ng-mouseleave="show_actions=!show_actions">
+                    <div class="caption">
+                        <div>
+                            [[ offer.title ]]
+                        </div>
+                        <div style="font-size:16px">
+                            $$ | 21 days remaining
+                        </div>
+
+                        <div class="actions">
+                            <img style="-webkit-filter: blur(0px) !important; width:200px; position:relative;height:50px; left:625px; top:45px" src="/static/img/barcode.png">
+                            <div>
+                                <a class="action" style="position: relative;top: 24px;left: 650px;" ng-show="!offer.claimed" ng-click="claim(offer,$index)">claim</a>
+                                <a class="action" style="top: 24px; position: relative;left: 640px;" ng-show="offer.claimed">claimed</a>
+                            </div>
+                            <div>
+                                 <a class="action" style="position: relative;top: -7px;left: 740px;">watch</a>
+                            </div>
+                        </div>
+
+                        <!--<div ng-show="show_actions" class="actions pull-right">-->
+                            <!--<a class="action" ng-show="!offer.claimed" ng-click="claim(offer,$index)">claim</a>-->
+                            <!--<a class="action" ng-show="offer.claimed">claimed</a>-->
+                            <!--&nbsp; &nbsp; &nbsp;-->
+                            <!--<a class="action">watch</a>-->
+                        <!--</div>-->
+                    </div>
+                    <img ng-cloak src="[[ offer.img ]]" style="width:100%;position:relative;top:-170px">
+                </div>
+                <div class="claim-offer" ng-show="show_offer">
+                    <div class="well well-large">
+                        <div style="text-align:center" ng-show="!offer_ready">
+                            <img ng-cloak style="width:35px" src="/static/img/ajax-loader.gif">
+                        </div>
+                        <div ng-show="offer_ready" class="row">
+                            <div class="col-md-5 row" style="padding-left:20px">
+                                <div class="col-md-3" style="text-align:center">
+                                    <div class="offer-label">
+                                        EST. EARN
+                                    </div>
+                                    <div class="offer-value">
+                                        $20
+                                    </div>
+                                </div>
+                                <div class="col-md-3" style="text-align:center;margin-left:10px">
+                                    <div class="offer-label">
+                                        EST. CLICKS
+                                    </div>
+                                    <div class="offer-value">
+                                        85
+                                    </div>
+                                </div>
+                                <div class="col-md-3" style="text-align:center;margin-left:10px">
+                                    <div class="offer-label">
+                                        PER CLICK
+                                    </div>
+                                    <div class="offer-value">
+                                        $0.75
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7" style="margin-top:10px">
+                                <span class="offer-label">
+                                    SHARE AND EARN:
+                                </span>
+                                <span clipboard class="url">
+                                    <span class="url-text url-text-[[$index]]">[[url.url]]</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a ng-click="copy($index)" class="copy-button-[[$index]] action-button btn btn-primary">
+                                        <i class="fa fa-files-o"></i>
+                                    </a>
+                                    <a ng-click="copy($index)" onclick='setTimeout(function(){window.open("http://www.twitter.com")},500)' class="action-button btn btn-primary"><i class="fa fa-twitter"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

@@ -16,6 +16,7 @@
     <link href="{{ url_for('static', filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/nav.css') }}" rel="stylesheet">
     {% block styles %}
     {% endblock %}
 
@@ -53,8 +54,18 @@
       </div>
     </div>
 
-    <div class="container" style="padding-top:50px">
-      {%block content%}{%endblock%}
+    <div class="container" style="padding-top:70px">
+      {% include "base/_left_nav.html" %}
+      <div ng-app="app">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+                {%block content%}{%endblock%}
+            </div>
+        </div>
+
+      </div>
+
 
     </div><!-- /.container -->
 
@@ -72,6 +83,8 @@
     <script src="{{ url_for('static', filename='lib/jqueryui/jquery-ui-1.10.3.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-0.6.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-tpls-0.6.0.min.js') }}"></script>
+
+    <script type='text/javascript' src="{{ url_for('static', filename='js/app.js') }}"></script>
     {% block scripts %}
     {% endblock %}
   </body>

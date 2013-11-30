@@ -1,0 +1,41 @@
+<div class="sidebar">
+    <div style="width:200px" class="bs-sidebar hidden-print affix">
+        <div style="font-size:12px; font-weight:300; color:#b8c3c9;">
+            BROWSE
+        </div>
+        <ul class="nav bs-sidenav">
+            <li>
+                <a href="{{url_for('home') }}"> <i class="fa fa-gift"></i> Recommended </a>
+            </li>
+            <li>
+                <a> <i class="fa fa-users"></i> Popular </a>
+            </li>
+            <li>
+                <a> <i class="fa fa-clock-o"></i> Most Recent </a>
+            </li>
+
+        </ul>
+        <div style="font-size:12px; font-weight:300; color:#b8c3c9;">
+            CLAIMED OFFERS
+        </div>
+        <ul class="nav bs-sidenav">
+            <li>
+                <a> <i class="fa fa-inbox"></i> My Offers </a>
+            </li>
+            <li>
+                <a><i class="fa fa-trash-o"></i> Expired </a>
+            </li>
+        </ul>
+        <div style="font-size:12px; font-weight:300; color:#b8c3c9;">
+            REWARDS
+        </div>
+        <ul class="nav bs-sidenav">
+            <li>
+                <a href="{{url_for('dashboard') }}"> <i class="fa fa-tachometer"></i> Dashboard </a>
+            </li>
+            <li>
+                <a href="{{url_for('create') }}"> <i class="fa fa-usd"></i> Payments </a>
+            </li>
+        </ul>
+    </div>
+</div>

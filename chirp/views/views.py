@@ -4,11 +4,11 @@ import tweepy
 import requests
 
 from settings import *
-from auth import *
+from chirp.auth import *
 from chirp import app
 
 import json
-from models import *
+from chirp.models import *
 
 from oauth2client.client import OAuth2WebServerFlow
 flow = OAuth2WebServerFlow(
@@ -58,21 +58,7 @@ def get_verification():
 def authenticated():
     return render_template('authenticated.html')
 
-@app.route('/')
-def index():
-    return render_template('index.html')
 
-@app.route('/home')
-def home():
-    return render_template('home.html')
-
-@app.route('/dashboard')
-def dashboard():
-    return render_template('dashboard.html')
-
-@app.route('/create')
-def create():
-    return render_template('create.html')
 
 @app.route('/offers')
 def offers():
