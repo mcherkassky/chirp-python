@@ -40,15 +40,18 @@ def get_twitter_verification():
     from chirp.models import User
 
     tweepy_user = api.me()
-    followers = [follower.name for follower in api.followers()]
-    user = User(name=tweepy_user.name,
+    try:
+        user = User.objects.get(screen_name=tweepy_user.screen_name)
+    except:
+        followers = [follower.name for follower in api.followers()]
+        user = User(name=tweepy_user.name,
                 screen_name=tweepy_user.screen_name,
                 followers=followers,
                 access_token_key=auth.access_token.key,
                 access_token_secret=auth.access_token.secret)
-    import pdb; pdb.set_trace()
-    login_user(user, remember=True)
-    user.save()
+        user.save()
+
+    login_user(user)
 
     return api
 
@@ -92,9 +95,7 @@ def shorten_url(url_id):
 
 @app.route("/twitter")
 def send_token():
-    import pdb; pdb.set_trace()
     if g.user is not None and g.user.is_authenticated():
-
         return redirect(url_for('authenticated'))
     else:
         redirect_url = send_twitter_token()
