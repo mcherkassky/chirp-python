@@ -130,6 +130,8 @@ app.controller('CollapseCtrl', function($scope, $timeout, OfferFactory, UrlFacto
 
 app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $timeout){
     var currentDate = new Date();
+    var oneDay = 24*60*60*1000;
+    $scope.days = 0;
     $scope.start_date = {month: $rootScope.monthNames[currentDate.getMonth()],
                         day: currentDate.getDate(),
                         date: currentDate};
@@ -144,8 +146,12 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
                 $scope[$(e.target).attr('ng-model')]['day'] = e.date.getDate();
                 $scope[$(e.target).attr('ng-model')]['month'] = $rootScope.monthNames[e.date.getMonth()];
                 $scope[$(e.target).attr('ng-model')]['date'] = e.date
+
+                $scope.days = Math.round(Math.abs($scope.end_date.date - $scope.start_date.date)/oneDay)
             })
         });
+
+
 
     $scope.new_campaign = function(){
         $scope.campaign.start_date = $scope.start_date.date;
