@@ -71,7 +71,7 @@
             <form ng-submit="new_campaign()">
                 <div class="row">
                     <div class="col-md-4">
-                        <input required ng-model="campaign.name" class="form-control" placeholder="Display Name" type="text">
+                        <input required ng-model="campaign.title" class="form-control" placeholder="Display Name" type="text">
                     </div>
                     <div class="col-md-4">
                         <input required pattern="https?://.+" ng-model="campaign.url" class="form-control" placeholder="Content URL" type="url">
@@ -157,7 +157,10 @@
                     </div>
                     <div class="col-md-4">
                         <div class="pull-right">
-                            <button type="submit" class="btn btn-primary"> Launch</button>
+                            <button ng-show="!launching" type="submit" class="btn btn-primary"> Launch</button>
+                            <button ng-show="launching" disabled class="btn btn-primary">
+                                <img src="static/img/button-loader.gif"> Loading
+                            </button>
                             <button class="btn"> Clear</button>
                         </div>
 

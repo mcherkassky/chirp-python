@@ -15,9 +15,10 @@ def offers():
 @app.route('/campaigns', methods=['POST'])
 def campaigns():
     data = request.json
-    import pdb; pdb.set_trace()
-    Ad.build_from_json(data)
+    ad = Ad.build_from_json(data)
+    ad.save()
 
+    return ad.to_json()
 
 @app.route('/offers/<offer_id>', methods=['POST'])
 def offer_id(offer_id):

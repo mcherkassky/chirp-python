@@ -1,8 +1,22 @@
 from mongoengine import *
 from flask_login import UserMixin
 
+from bs4 import *
+
 from settings import *
 from url import *
+
+from datetime import datetime
+
+def url_image(url):
+    r = requests.get(url)
+
+    data = r.text
+    soup = BeautifulSoup(data)
+
+    img = soup.find('meta', attrs={'property': 'og:image'})['content']
+
+    return img
 
 class Url(Document):
     # id = SequenceField(primary_key=True)
@@ -80,11 +94,13 @@ class Ad(Document):
     def build_from_json(cls, json):
         response = cls()
         response.url = json['url']
+
+        response.img = url_image(json['url'])
         response.bid = float(json['cpc'])
         response.budget = float(json['budget'])
-        response.start_date = json['start_date']
-        response.end_date = json['end_date']
-        response.img = json['img']
+        response.title = json['title']
+        response.start_date = datetime.strptime(json['start_date'].split('T')[0], '%Y-%m-%d')
+        response.end_date = datetime.strptime(json['end_date'].split('T')[0], '%Y-%m-%d')
 
         return response
 

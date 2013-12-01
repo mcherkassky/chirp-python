@@ -132,6 +132,7 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
     var currentDate = new Date();
     var oneDay = 24*60*60*1000;
     $scope.days = 0;
+    $scope.launching = false;
     $scope.start_date = {month: $rootScope.monthNames[currentDate.getMonth()],
                         day: currentDate.getDate(),
                         date: currentDate};
@@ -154,9 +155,14 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
 
 
     $scope.new_campaign = function(){
+        $scope.launching = true;
         $scope.campaign.start_date = $scope.start_date.date;
         $scope.campaign.end_date = $scope.end_date.date;
 
-        CampaignFactory.save($scope.campaign)
+        CampaignFactory.save($scope.campaign, function(data){
+            $scope.launching = false;
+            $scope.campaign = {};
+            window.location.href = '/home';
+        })
     }
 });
