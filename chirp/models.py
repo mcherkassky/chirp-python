@@ -1,6 +1,5 @@
 from mongoengine import *
-import json
-import base64
+from flask_login import UserMixin
 
 from settings import *
 from url import *
@@ -45,13 +44,21 @@ class Url(Document):
     # def hex(self):
     #     return base64.urlsafe_b64encode(str(self.id))
 
-class User(Document):
+class User(Document, UserMixin):
     name = StringField()
     screen_name = StringField()
     access_token_key = StringField()
     access_token_secret = StringField()
 
     followers = ListField(StringField())
+
+    @classmethod
+    def get(cls, user_id):
+        try:
+            user = User.objects.get(id=user_id)
+            return user
+        except:
+            return None
 
 class Ad(Document):
     url = StringField()

@@ -1,15 +1,8 @@
 __author__ = 'mcherkassky'
 
-from flask import url_for, request, redirect, render_template, session
-import tweepy
-import requests
+from flask import render_template
 
-from settings import *
-from chirp.auth import *
 from chirp import app
-
-import json
-from chirp.models import *
 
 @app.route('/dashboard')
 def dashboard():
