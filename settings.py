@@ -7,7 +7,7 @@ MONGO_PASSWORD = "cherkassky"
 
 CONSUMER_KEY='vWbzHNYbSZB9vy1xcS5UNw'
 CONSUMER_SECRET='FhtYfCx0Qvb0Q0F0KAGQFO0sQvJh1dH7Kq0MXuLRY'
-CALLBACK_URL='http://www.chirp-app.herokuapp.com/verify'
+CALLBACK_URL='http://chirp-app.herokuapp.com/verify'
 
 
 API_KEY = 'AIzaSyA2IB5deG96CTPlH43p6ekdbco_TMi3gBc'
