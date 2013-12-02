@@ -1,10 +1,3 @@
-import os
-import logging
-
-MONGODB_SETTINGS = {
-    "DB": "chirp"
-}
-
 MONGO_HOST = "paulo.mongohq.com"
 MONGO_DATABASE_NAME = "Chirp"
 MONGO_PORT = 10024
@@ -12,9 +5,10 @@ MONGO_PORT = 10024
 MONGO_USERNAME = "michael"
 MONGO_PASSWORD = "cherkassky"
 
-CONSUMER_KEY='13wjAb9GLLP3O9onQuM1Ew'
-CONSUMER_SECRET='agpSyJzyMnvIBEkfaCdGv2EoIKWVNo0qYkjuGoMbjjg'
-CALLBACK_URL = 'http://127.0.0.1:5000/verify'
+CONSUMER_KEY='vWbzHNYbSZB9vy1xcS5UNw'
+CONSUMER_SECRET='FhtYfCx0Qvb0Q0F0KAGQFO0sQvJh1dH7Kq0MXuLRY'
+CALLBACK_URL='http://www.chirp-app.herokuapp.com/verify'
+
 
 API_KEY = 'AIzaSyA2IB5deG96CTPlH43p6ekdbco_TMi3gBc'
 OAUTH2_CLIENT_ID = '783435406869.apps.googleusercontent.com'
@@ -28,3 +22,8 @@ HOST = 'http://127.0.0.1:5000'
 
 # access_key='1552105075-fDyEqGl2qTOgFzdfJZAOAkZwlXdq7AXRxs2OZm4'
 # access_secret='hbEZp3o075kvf7DS2v3RGhE9CGAzjzIVnqLI16w5kDGvK'
+
+try:
+    from settings_local import *
+except:
+    pass
