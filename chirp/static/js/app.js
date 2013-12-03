@@ -3,6 +3,16 @@ var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap'], functio
     $interpolateProvider.endSymbol(']]');
 
     $locationProvider.html5Mode(true);
+
+    $routeProvider.when('/remarketing/',{
+        templateUrl:'/static/html/remarketing/remarketing.html',
+        controller: 'RemarketingCtrl'
+    });
+
+    $routeProvider.otherwise({
+        controller: "404Ctrl",
+        template: "<div></div>"
+    });
 });
 
 app.run(function($rootScope){
@@ -79,6 +89,10 @@ app.controller('OfferCtrl', function($scope, OfferFactory){
         console.log($scope.offers);
         OfferFactory.save(offer);
     };
+
+    $scope.open_tweet = function(url){
+        window.open("https://twitter.com/intent/tweet?source=webclient&text=" + url)
+    }
 });
 
 app.controller('CollapseCtrl', function($scope, $timeout, OfferFactory, UrlFactory){

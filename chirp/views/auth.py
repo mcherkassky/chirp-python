@@ -49,7 +49,9 @@ def get_twitter_verification():
                 followers=followers,
                 access_token_key=auth.access_token.key,
                 access_token_secret=auth.access_token.secret)
+
         user.save()
+        user.create_offers()
 
     login_user(user)
 

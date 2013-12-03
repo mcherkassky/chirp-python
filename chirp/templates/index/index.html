@@ -31,6 +31,7 @@
         <span id="second" class="uncover">Share. </span>
         <span id="third" class="uncover">Earn.</span>
     </h1>
+    <br>
     <a class="btn btn-primary" href='{{url_for("send_token")}}' onclick="
         var authWindow= window.open(this.href, '', 'left=100,top=100,width=500,height=300,toolbar=0,resizable=1');
         var authenticationSuccessUrl = 'http://127.0.0.1:5000/home';
@@ -41,6 +42,8 @@
             }
         }, 1000);
         return false;">
-        Sign in with Twitter
+        <i class="fa fa-twitter"></i> Sign in with Twitter
     </a>
+    <br>
+    <a href="/signin" style="cursor:pointer"> For Advertisers </a>
 </div>

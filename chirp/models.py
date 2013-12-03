@@ -1,7 +1,9 @@
 from mongoengine import *
 from flask_login import UserMixin
+import json
 
 from bs4 import *
+from bson import json_util
 
 from settings import *
 from url import *
@@ -18,7 +20,27 @@ def url_image(url):
 
     return img
 
-class Url(Document):
+def serialize(dict):
+    dict['id'] = str(dict['_id'])
+    dict.pop('_id')
+    return dict
+
+class CustomQuerySet(QuerySet):
+    def to_json(self, *args, **kwargs):
+        return json_util.dumps([serialize(obj) for obj in self.as_pymongo()], *args, **kwargs)
+
+class Base(object):
+    meta = {'allow_inheritance': True,
+            'queryset_class': CustomQuerySet}
+
+    def to_json(self, *args, **kwargs):
+        return json_util.dumps(serialize(self.to_mongo()),  *args, **kwargs)
+
+    @classmethod
+    def build_from_json(cls):
+        pass
+
+class Url(Document, Base):
     # id = SequenceField(primary_key=True)
     url = URLField()
     clicks = IntField(default=0)
@@ -58,7 +80,7 @@ class Url(Document):
     # def hex(self):
     #     return base64.urlsafe_b64encode(str(self.id))
 
-class User(Document, UserMixin):
+class User(Document, UserMixin, Base):
     name = StringField()
     screen_name = StringField()
     access_token_key = StringField()
@@ -69,12 +91,25 @@ class User(Document, UserMixin):
     @classmethod
     def get(cls, user_id):
         try:
-            user = User.objects.get(id=user_id)
+            user = cls.objects.get(id=user_id)
             return user
         except:
             return None
 
-class Ad(Document):
+    def create_offers(self):
+        ads = Ad.objects()
+        for ad in ads:
+            Offer.create(self, ad)
+
+    @property
+    def offers(self):
+        return Offer.objects.filter(user_id=self.id, claimed=False)
+
+    @property
+    def claimed_offers(self):
+        return Offer.objects.filter(user_id=self.id, claimed=True)
+
+class Ad(Document, Base):
     url = StringField()
     img = StringField()
 
@@ -115,6 +150,16 @@ class Ad(Document):
 
         return response
 
-class Offer(Document):
+class Offer(Document, Base):
     ad_id = ObjectIdField()
+    user_id = ObjectIdField()
     claimed = BooleanField(default=False)
+
+    @classmethod
+    def create(cls, user, ad):
+        offer = cls(user_id=user.id, ad_id=ad.id)
+        offer.save()
+
+    def claim(self):
+        self.claimed = True
+        self.save()
