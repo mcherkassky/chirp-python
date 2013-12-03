@@ -17,6 +17,21 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ url_for('static', filename='css/nav.css') }}" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="{{ url_for('static', filename='lib/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='lib/angular/angular.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/angular/angular-route.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/angular/angular-resource.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='lib/jqueryui/jquery-ui-1.10.3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-0.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-tpls-0.6.0.min.js') }}"></script>
+
+    <script type='text/javascript' src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script type='text/javascript' src="{{ url_for('static', filename='lib/zclip/jquery.zclip.min.js') }}"></script>
+    <script type='text/javascript' src="{{ url_for('static', filename='lib/datepicker/js/bootstrap-datepicker.js') }}"></script>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
     {% block styles %}
     {% endblock %}
 
@@ -74,18 +89,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="{{ url_for('static', filename='lib/bootstrap/js/bootstrap.min.js') }}"></script>
 
-    <script src="{{ url_for('static', filename='lib/angular/angular.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/angular/angular-route.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/angular/angular-resource.min.js') }}"></script>
-
-    <script src="{{ url_for('static', filename='lib/jqueryui/jquery-ui-1.10.3.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-0.6.0.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/ui.bootstrap/ui-bootstrap-tpls-0.6.0.min.js') }}"></script>
-
-    <script type='text/javascript' src="{{ url_for('static', filename='js/app.js') }}"></script>
     {% block scripts %}
     {% endblock %}
   </body>

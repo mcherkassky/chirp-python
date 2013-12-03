@@ -20,7 +20,7 @@ def index():
 @app.route('/home')
 @login_required
 def home():
-    return render_template('home/home.html')
+    return render_template('base/base.html')
 
 
 @app.route('/create')

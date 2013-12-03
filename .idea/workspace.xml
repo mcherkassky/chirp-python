@@ -2,32 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c159d9b-642d-4490-bfb3-ab5f1cd16852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/templates/index/signin.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chirp/templates/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/api.py" afterPath="$PROJECT_DIR$/chirp/views/api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chirp/static/lib/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chirp/static/lib/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chirp/static/lib/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chirp/static/lib/angular/angular.min.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/chirp/static/lib/angular/angular.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/js/app.js" afterPath="$PROJECT_DIR$/chirp/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/auth.py" afterPath="$PROJECT_DIR$/chirp/views/auth.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/base.html" afterPath="$PROJECT_DIR$/chirp/templates/base/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/home/home.html" afterPath="$PROJECT_DIR$/chirp/templates/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/index/index.html" afterPath="$PROJECT_DIR$/chirp/templates/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/models.py" afterPath="$PROJECT_DIR$/chirp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/individual.py" afterPath="$PROJECT_DIR$/chirp/views/individual.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chirp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385957473645" ignored="false" />
-    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385996721757" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386043101851" ignored="false" />
+    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386045389476" ignored="false" />
     <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385781434650" ignored="false" />
-    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386023908266" ignored="false" />
+    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386045242859" ignored="false" />
     <file path="/index.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386000026939" ignored="false" />
     <file path="/map.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385699380815" ignored="false" />
     <file path="/template.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385708873653" ignored="false" />
     <file path="/views.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385857423524" ignored="false" />
     <file path="/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
-    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386036526867" ignored="false" />
+    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386044622757" ignored="false" />
     <file path="/base.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385702665573" ignored="false" />
     <file path="/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385858941620" ignored="false" />
-    <file path="/individual.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385861687509" ignored="false" />
+    <file path="/individual.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386044411052" ignored="false" />
     <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386039132534" ignored="false" />
     <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385781534661" ignored="false" />
     <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386022826152" ignored="false" />
@@ -77,9 +78,7 @@
         <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="17" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#28#53#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,8 +86,9 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="18" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.53678477">
+            <state line="78" column="28" selection-start="3741" selection-end="3741" vertical-scroll-proportion="0.45144358">
               <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -98,8 +98,43 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="514" selection-end="514" vertical-scroll-proportion="-9.5">
+            <state line="13" column="33" selection-start="519" selection-end="519" vertical-scroll-proportion="-4.490909">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="508" selection-end="622" vertical-scroll-proportion="-7.464286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.392857">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +142,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="-3.3148148">
-              <folding>
-                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +151,16 @@
       <file leaf-file-name="individual.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="22" column="33" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="30" selection-start="4169" selection-end="4169" vertical-scroll-proportion="-51.57143">
               <folding />
             </state>
           </provider>
@@ -128,9 +170,7 @@
         <entry file="file://$PROJECT_DIR$/chirp/views/auth.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="28" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#28#41#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +178,7 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="-2.6111112">
+            <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chirp/views/views.py" />
-        <option value="$PROJECT_DIR$/chirp/__init__.py" />
-        <option value="$PROJECT_DIR$/chirp/views/individual.py" />
         <option value="$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/flask_login.py" />
         <option value="$PROJECT_DIR$/chirp/templates/create/create.html" />
         <option value="$PROJECT_DIR$/settings_local.py" />
@@ -176,13 +213,16 @@
         <option value="$PROJECT_DIR$/chirp/views/api.py" />
         <option value="$PROJECT_DIR$/chirp/models.py" />
         <option value="$PROJECT_DIR$/chirp/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/chirp/views/individual.py" />
         <option value="$PROJECT_DIR$/chirp/static/js/app.js" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
         <option value="$PROJECT_DIR$/chirp/templates/base/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
+    <option name="x" value="-72" />
     <option name="y" value="22" />
     <option name="width" value="1707" />
     <option name="height" value="774" />
@@ -300,29 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="create" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,6 +362,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="browse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -351,12 +395,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spotlight.zefr.com" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -368,8 +412,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/chirp/static/img" />
       <recent name="$PROJECT_DIR$/chirp/static/lib/angular" />
+      <recent name="$PROJECT_DIR$/chirp/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chirp/templates/dashboard" />
@@ -522,18 +566,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="22" width="1707" height="774" extended-state="0" />
+    <frame x="-72" y="22" width="1707" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14388922" sideWeight="0.68654436" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14569536" sideWeight="0.6880734" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31345567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3119266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -605,36 +649,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/flask_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="20" selection-start="14110" selection-end="14110" vertical-scroll-proportion="5.6306534">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/mongoengine/base/document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="611" column="57" selection-start="23082" selection-end="23083" vertical-scroll-proportion="31.8078">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/mongoengine/document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="6" selection-start="2668" selection-end="2668" vertical-scroll-proportion="0.33246753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/mongoengine/queryset/queryset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2006" selection-end="2007" vertical-scroll-proportion="-4.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/mongoengine/queryset/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="824" column="4" selection-start="31187" selection-end="31331" vertical-scroll-proportion="0.33246753">
@@ -644,16 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="-3.3148148">
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -661,9 +666,7 @@
     <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="17" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#28#53#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,15 +675,6 @@
         <state line="152" column="22" selection-start="3693" selection-end="3693" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="836" selection-end="836" vertical-scroll-proportion="1.0871935">
-          <folding>
-            <element signature="e#730#752#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,30 +696,88 @@
     <entry file="file://$PROJECT_DIR$/chirp/views/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="28" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#28#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="-2.6111112">
+        <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/lib/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="91" selection-end="203" vertical-scroll-proportion="-4.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="33" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="30" selection-start="4169" selection-end="4169" vertical-scroll-proportion="-51.57143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="514" selection-end="514" vertical-scroll-proportion="-9.5">
+        <state line="13" column="33" selection-start="519" selection-end="519" vertical-scroll-proportion="-4.490909">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="508" selection-end="622" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.392857">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.53678477">
+        <state line="78" column="28" selection-start="3741" selection-end="3741" vertical-scroll-proportion="0.45144358">
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

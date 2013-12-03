@@ -1,0 +1,118 @@
+<link href="/static/css/create.css" rel="stylesheet">
+<link href="/static/lib/datepicker/css/datepicker.css" rel="stylesheet">
+
+<script>
+    $('.input-daterange').datepicker({
+        format: "MM dd yy",
+        orientation: "top left"
+    });
+</script>
+<div>
+    <div style="font-size:24px; font-weight:200">
+        Campaign Creation
+    </div>
+    <hr class="faded">
+
+    <div style="margin-top:20px">
+        <form ng-submit="new_campaign()">
+            <div class="row">
+                <div class="col-md-4">
+                    <input required ng-model="campaign.title" class="form-control" placeholder="Display Name" type="text">
+                </div>
+                <div class="col-md-4">
+                    <input required pattern="https?://.+" ng-model="campaign.url" class="form-control" placeholder="Content URL" type="url">
+                </div>
+
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input required ng-model="campaign.budget" type="text" class="form-control" placeholder="Budget">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input required ng-model="campaign.cpc" type="text" class="form-control" placeholder="CPC">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:40px">
+                <div class="col-md-2">
+                    <div class="input-daterange">
+                        <input ng-model="start_date" style="top: 15px" type="text" id="start-date" class="input-small" name="start" />
+                        <div onclick="$('#start-date').datepicker('show')" style="margin-top:-10px;" class="calendar-widget form-control">
+                            <div class="date-header">
+                                Start Date
+                            </div>
+                            <div ng-cloak class="date-date">
+                                [[start_date.day]]
+                            </div>
+                            <div ng-cloak class="date-month">
+                                [[start_date.month]]
+                            </div>
+                        </div>
+
+                        <input ng-model="end_date" style="top: 45px" type="text" id="end-date" class="input-small" name="end" />
+                        <div onclick="$('#end-date').datepicker('show')" style=" margin-top:20px" class="calendar-widget form-control">
+                            <div class="date-header">
+                                End Date
+                            </div>
+                            <div ng-cloak class="date-date">
+                                [[end_date.day]]
+                            </div>
+                            <div ng-cloak class="date-month">
+                                [[end_date.month]]
+                            </div>
+                        </div>
+                    </div>
+                    <div style="font-size: 13px;font-weight: 200;margin-top: 45px;position: relative;left: 20px;">
+                        <a>+ Advanced Options</a>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div style="overflow:hidden;height:300px; width:600px;padding:0;margin-right:0; margin-left:55px" class="form-control">
+                        <div style="font-weight:100; padding-left:10px;color:#999999; background-color:#eee; border-bottom:1px solid #ccc">
+                            Locations
+                        </div>
+                        <div style="overflow:hidden">
+                            <div style="width:600px;top: -120px; left: -7px;" id="map_canvas"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <hr class="faded" style="margin-top:40px">
+            <div class="row" style="margin-top:20px">
+                <div class="col-md-4">
+                    <span style="font-size:30px; font-weight:200">
+                        [[2*days]]k - [[2*days + 2]]k
+                    </span>
+                    <span>
+                        IMPRESSIONS
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    <span style="font-size:30px; font-weight:200">
+                        [[20*days]] - [[20*(days+1)]]
+                    </span>
+                    <span>
+                        CLICKS
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <button ng-show="!launching" type="submit" class="btn btn-primary"> Launch</button>
+                        <button ng-show="launching" disabled class="btn btn-primary">
+                            <img src="static/img/button-loader.gif"> Loading
+                        </button>
+                        <button class="btn"> Clear</button>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>

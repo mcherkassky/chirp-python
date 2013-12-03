@@ -4,15 +4,20 @@ var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap'], functio
 
     $locationProvider.html5Mode(true);
 
-    $routeProvider.when('/remarketing/',{
-        templateUrl:'/static/html/remarketing/remarketing.html',
-        controller: 'RemarketingCtrl'
+    $routeProvider.when('/home',{
+        templateUrl:'/static/html/browse/home.html',
+        controller: 'OfferCtrl'
     });
 
-    $routeProvider.otherwise({
-        controller: "404Ctrl",
-        template: "<div></div>"
+    $routeProvider.when('/create',{
+        templateUrl:'/static/html/browse/create.html',
+        controller:'CampaignCtrl'
     });
+
+//    $routeProvider.otherwise({
+//        controller: "404Ctrl",
+//        template: "<div></div>"
+//    });
 });
 
 app.run(function($rootScope){
