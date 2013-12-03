@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap'], function($interpolateProvider, $locationProvider, $routeProvider){
+var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap','ui.router'], function($interpolateProvider, $locationProvider, $routeProvider){
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 
@@ -148,6 +148,11 @@ app.controller('CollapseCtrl', function($scope, $timeout, OfferFactory, UrlFacto
 });
 
 app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $timeout){
+    $('.input-daterange').datepicker({
+        format: "MM dd yy",
+        orientation: "top left"
+    });
+
     var currentDate = new Date();
     var oneDay = 24*60*60*1000;
     $scope.days = 0;
@@ -162,10 +167,11 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
 
     $('.input-daterange').datepicker()
         .on('changeDate', function(e){
+
             $scope.$apply(function(){
-                $scope[$(e.target).attr('ng-model')]['day'] = e.date.getDate();
-                $scope[$(e.target).attr('ng-model')]['month'] = $rootScope.monthNames[e.date.getMonth()];
-                $scope[$(e.target).attr('ng-model')]['date'] = e.date
+                $scope[$(e.target).attr('data-model')]['day'] = e.date.getDate();
+                $scope[$(e.target).attr('data-model')]['month'] = $rootScope.monthNames[e.date.getMonth()];
+                $scope[$(e.target).attr('data-model')]['date'] = e.date
 
                 $scope.days = Math.round(Math.abs($scope.end_date.date - $scope.start_date.date)/oneDay)
             })
@@ -184,4 +190,41 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
             window.location.href = '/home';
         })
     }
+
+    $(document).ready(function(){
+        function drawRegionsMap(data_array) {
+            var data = google.visualization.arrayToDataTable(data_array);
+
+            var view = new google.visualization.DataView(data)
+            view.setColumns([0, 1])
+
+            var options = { region: 'world', resolution: 'continents', width: 600, height: 450 };
+            options['colors'] = [ '#ffffff', '#ccc', '#ffffff', '#eee'];
+            options['tooltip'] = {trigger: 'none'};
+
+            var chart = new google.visualization.GeoChart(document.getElementById('map_canvas'));
+            chart.draw(data, options)
+
+            google.visualization.events.addListener(
+                chart, 'regionClick', function(e) {
+                   var value = data_array[lookup[e['region']]][1];
+                   if(value == 3){
+                       data_array[lookup[e['region']]][1] = 2
+                   }
+                   else{
+                       data_array[lookup[e['region']]][1] = 3
+                   }
+                   drawRegionsMap(data_array)
+            });
+        }
+        var data_array = [
+              ['Country', 'Popularity'],
+              ['019', 3], //americas
+              ['002', 2], //africa
+              ['150', 2], //europe
+              ['142', 2], //asia
+              ['009', 2] //australia
+            ];
+        drawRegionsMap(data_array)
+    })
 });

@@ -1,12 +1,6 @@
 <link href="/static/css/create.css" rel="stylesheet">
 <link href="/static/lib/datepicker/css/datepicker.css" rel="stylesheet">
 
-<script>
-    $('.input-daterange').datepicker({
-        format: "MM dd yy",
-        orientation: "top left"
-    });
-</script>
 <div>
     <div style="font-size:24px; font-weight:200">
         Campaign Creation
@@ -39,7 +33,7 @@
             <div class="row" style="margin-top:40px">
                 <div class="col-md-2">
                     <div class="input-daterange">
-                        <input ng-model="start_date" style="top: 15px" type="text" id="start-date" class="input-small" name="start" />
+                        <input data-model="start_date" style="top: 15px" type="text" id="start-date" class="input-small" name="start" />
                         <div onclick="$('#start-date').datepicker('show')" style="margin-top:-10px;" class="calendar-widget form-control">
                             <div class="date-header">
                                 Start Date
@@ -52,7 +46,7 @@
                             </div>
                         </div>
 
-                        <input ng-model="end_date" style="top: 45px" type="text" id="end-date" class="input-small" name="end" />
+                        <input data-model="end_date" style="top: 45px" type="text" id="end-date" class="input-small" name="end" />
                         <div onclick="$('#end-date').datepicker('show')" style=" margin-top:20px" class="calendar-widget form-control">
                             <div class="date-header">
                                 End Date

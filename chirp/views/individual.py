@@ -23,7 +23,7 @@ def home():
     return render_template('base/base.html')
 
 
-@app.route('/create')
-@login_required
-def create():
-    return render_template('create/create.html')
+# @app.route('/create')
+# @login_required
+# def create():
+#     return render_template('create/create.html')
