@@ -21,6 +21,7 @@ def url_image(url):
     return img
 
 def serialize(dict):
+
     dict['id'] = str(dict['_id'])
     dict.pop('_id')
     return dict
@@ -103,11 +104,11 @@ class User(Document, UserMixin, Base):
 
     @property
     def offers(self):
-        return Offer.objects.filter(user_id=self.id, claimed=False)
+        return Offer.objects.filter(user_id=self.id)
 
-    @property
-    def claimed_offers(self):
-        return Offer.objects.filter(user_id=self.id, claimed=True)
+    # @property
+    # def claimed_offers(self):
+    #     return Offer.objects.filter(user_id=self.id, claimed=True)
 
 class Ad(Document, Base):
     url = StringField()
@@ -153,13 +154,24 @@ class Ad(Document, Base):
 class Offer(Document, Base):
     ad_id = ObjectIdField()
     user_id = ObjectIdField()
+    title = StringField()
+    img = StringField()
+    bid = FloatField()
+
     claimed = BooleanField(default=False)
 
     @classmethod
     def create(cls, user, ad):
-        offer = cls(user_id=user.id, ad_id=ad.id)
+        offer = cls(user_id=user.id,
+                    ad_id=ad.id,
+                    title=ad.title,
+                    img=ad.img,
+                    bid=ad.bid)
         offer.save()
 
+    @property
+    def ad(self):
+        return Ad.objects.get(id=self.ad_id)
     def claim(self):
         self.claimed = True
         self.save()

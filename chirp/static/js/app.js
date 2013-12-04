@@ -1,18 +1,42 @@
-var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap','ui.router'], function($interpolateProvider, $locationProvider, $routeProvider){
+var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap','ui.router'], function($interpolateProvider, $locationProvider, $stateProvider, $urlRouterProvider, $routeProvider){
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
 
     $locationProvider.html5Mode(true);
 
-    $routeProvider.when('/home',{
-        templateUrl:'/static/html/browse/home.html',
-        controller: 'OfferCtrl'
-    });
+    $urlRouterProvider.otherwise("/home");
 
-    $routeProvider.when('/create',{
-        templateUrl:'/static/html/browse/create.html',
-        controller:'CampaignCtrl'
-    });
+    $stateProvider
+        .state('home', {
+          url: "/home",
+          templateUrl: "/static/html/browse/home.html",
+            controller: 'OfferCtrl'
+        })
+        .state('create', {
+          url: "/create",
+          templateUrl: "/static/html/browse/create.html",
+            controller: "CampaignCtrl"
+        })
+        .state('dashboard',{
+            url:'/dashboard',
+            templateUrl: "static/html/browse/dashboard.html",
+            controller: "OfferCtrl"
+        })
+        .state('current',{
+            url:'/open',
+            templateUrl: "static/html/offers/current.html",
+            controller: 'OfferCtrl'
+        });
+
+//    $routeProvider.when('/home',{
+//        templateUrl:'/static/html/browse/home.html',
+//        controller: 'OfferCtrl'
+//    });
+//
+//    $routeProvider.when('/create',{
+//        templateUrl:'/static/html/browse/create.html',
+//        controller:'CampaignCtrl'
+//    });
 
 //    $routeProvider.otherwise({
 //        controller: "404Ctrl",
@@ -20,7 +44,12 @@ var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap','ui.route
 //    });
 });
 
-app.run(function($rootScope){
+app.run(function($rootScope, OfferFactory){
+    OfferFactory.query(function(data){
+        $rootScope.offers = data.filter(function(obj){return obj.claimed == false});
+        $rootScope.claimed = data.filter(function(obj){return obj.claimed == true});
+    });
+
     $rootScope.count = function(element, counter){
         var current = parseFloat(element.html());
         current= current + counter;
@@ -85,9 +114,6 @@ app.factory('CampaignFactory', function($resource){
 
 app.controller('OfferCtrl', function($scope, OfferFactory){
     $scope.show_actions = false;
-    $scope.offers = OfferFactory.query(function(){
-        console.log($scope.offers)
-    });
 
     $scope.claim = function(offer){
         offer.claimed = true;

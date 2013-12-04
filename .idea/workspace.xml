@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c159d9b-642d-4490-bfb3-ab5f1cd16852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/lib/ui.router/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/lib/ui.router/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/offers/current.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" afterPath="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/api.py" afterPath="$PROJECT_DIR$/chirp/views/api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/js/app.js" afterPath="$PROJECT_DIR$/chirp/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/base.html" afterPath="$PROJECT_DIR$/chirp/templates/base/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/create.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/home.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/individual.py" afterPath="$PROJECT_DIR$/chirp/views/individual.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/models.py" afterPath="$PROJECT_DIR$/chirp/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chirp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386046046826" ignored="false" />
-    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386047380153" ignored="false" />
+    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187949390" ignored="false" />
     <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385781434650" ignored="false" />
     <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386045242859" ignored="false" />
     <file path="/index.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386000026939" ignored="false" />
@@ -22,36 +24,52 @@
     <file path="/template.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385708873653" ignored="false" />
     <file path="/views.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385857423524" ignored="false" />
     <file path="/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
-    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386047946359" ignored="false" />
+    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193333361" ignored="false" />
     <file path="/base.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385702665573" ignored="false" />
     <file path="/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385858941620" ignored="false" />
     <file path="/individual.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386044411052" ignored="false" />
-    <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386048977026" ignored="false" />
-    <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385781534661" ignored="false" />
-    <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386022826152" ignored="false" />
+    <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386049304808" ignored="false" />
+    <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193412743" ignored="false" />
+    <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386192987279" ignored="false" />
     <file path="/auth.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386020798149" ignored="false" />
-    <file path="/api.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386022063442" ignored="false" />
+    <file path="/api.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193057891" ignored="false" />
     <file path="/flask_login.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385861986374" ignored="false" />
     <file path="/settings.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385958073428" ignored="false" />
     <file path="/a.dummy" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385957400907" ignored="false" />
     <file path="/settings_local.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385958095475" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/manage.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385994052747" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385994052747" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385994052747" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/ad.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385994052747" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/campaigns/create/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386015814902" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/campaigns/create/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385997951880" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/manage.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/ad.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/campaigns/create/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187953572" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/campaigns/create/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386186909354" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/lib/zclip/jquery.zclip.min.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385998884985" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/remarketing/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016958129" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/html/remarketing/remarketing.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386015814902" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/remarketing/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/html/remarketing/remarketing.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
     <file path="/remarketing.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386001988979" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/remarketing/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016905302" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/features/terrain.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386015814902" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/remarketing/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/features/terrain.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
     <file path="/terrain.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386012882159" ignored="false" />
-    <file path="/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386013589718" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386014330415" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/base/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386017140535" ignored="false" />
+    <file path="/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386177787186" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/base/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/html/remarketing/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
+    <file path="$PROJECT_DIR$/../listen/youtube/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386080820226" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/videoset.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="/videoset.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386178804083" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/tasks/rt.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386096332865" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/discovery/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386173153661" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/create.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="/create.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386184407700" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/new_campaign.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="/new_campaign.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386184818419" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/adwords.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/data_factory.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/custom.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187760469" ignored="false" />
+    <file path="/custom.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187365296" ignored="false" />
+    <file path="/current.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193288688" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +92,7 @@
       <file leaf-file-name="api.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,74 +101,57 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="102" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-6.785714">
+            <state line="78" column="28" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-16.857143">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="81" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+            <state line="47" column="38" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-34.346153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/static/css/create.css">
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="525" selection-end="525" vertical-scroll-proportion="-5.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="9" selection-start="682" selection-end="2226" vertical-scroll-proportion="-5.428571">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="86" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-2.2777777">
+            <state line="85" column="22" selection-start="2713" selection-end="2713" vertical-scroll-proportion="-25.107143">
               <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="individual.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="423" selection-end="526" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="167" column="31" selection-start="4052" selection-end="4052" vertical-scroll-proportion="-31.384615">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_left_nav.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_left_nav.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="32" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-12.821428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="30" selection-start="4169" selection-end="4169" vertical-scroll-proportion="-9.428572">
+            <state line="22" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.39396796">
               <folding />
             </state>
           </provider>
@@ -159,8 +160,76 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="172" column="10" selection-start="244" selection-end="5841" vertical-scroll-proportion="-32.464287">
+              <folding>
+                <marker date="1386043084000" expanded="true" signature="260:1233" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="291:566" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="330:470" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="508:551" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="597:896" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="636:800" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="664:681" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="838:881" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="927:1222" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="966:1123" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1161:1207" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="1252:1319" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1320:1353" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="1372:1434" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1447:2295" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1493:1594" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1640:1732" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1778:1870" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="1916:2008" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2054:2146" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2192:2284" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="2314:2329" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2330:2838" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2356:2827" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2404:2444" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2492:2539" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2587:2629" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2677:2719" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2767:2812" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="2869:2902" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2939:3552" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="2999:3541" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3030:3525" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="3077:3094" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3095:3154" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3193:3244" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3283:3333" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3372:3418" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3457:3506" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="3570:3617" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3618:3650" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="3668:3730" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3743:4591" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3789:3890" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="3936:4028" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4074:4166" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4212:4304" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4350:4442" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4488:4580" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="4610:4625" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4626:5134" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4652:5123" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4700:4740" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4788:4835" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4883:4925" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="4973:5015" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5063:5108" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="5165:5198" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5235:5840" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5277:5829" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5318:5813" placeholder="..." />
+                <marker date="1386043084000" expanded="false" signature="5365:5382" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5383:5442" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5481:5532" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5571:5621" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5660:5706" placeholder="..." />
+                <marker date="1386043084000" expanded="true" signature="5745:5794" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,30 +252,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/settings_local.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/chirp/templates/index.html" />
         <option value="$PROJECT_DIR$/chirp/templates/index/index.html" />
         <option value="$PROJECT_DIR$/chirp/templates/index/signin.html" />
         <option value="$PROJECT_DIR$/chirp/views/auth.py" />
-        <option value="$PROJECT_DIR$/chirp/views/api.py" />
-        <option value="$PROJECT_DIR$/chirp/models.py" />
         <option value="$PROJECT_DIR$/chirp/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
-        <option value="$PROJECT_DIR$/chirp/views/individual.py" />
-        <option value="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
         <option value="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
         <option value="$PROJECT_DIR$/chirp/static/css/create.css" />
         <option value="$PROJECT_DIR$/chirp/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/chirp/views/individual.py" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
+        <option value="$PROJECT_DIR$/chirp/models.py" />
+        <option value="$PROJECT_DIR$/chirp/views/api.py" />
+        <option value="$PROJECT_DIR$/chirp/static/html/offers/claimed.html" />
+        <option value="$PROJECT_DIR$/chirp/static/html/offers/current.html" />
+        <option value="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
         <option value="$PROJECT_DIR$/chirp/static/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-56" />
-    <option name="y" value="22" />
+    <option name="x" value="-1707" />
+    <option name="y" value="-329" />
     <option name="width" value="1707" />
-    <option name="height" value="774" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,11 +350,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,8 +437,22 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui.router" />
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,7 +474,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="offers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,6 +497,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="browse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chirp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,18 +708,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="22" width="1707" height="774" extended-state="0" />
+    <frame x="-1707" y="-329" width="1707" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1475015" sideWeight="0.68960243" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1475015" sideWeight="0.84621215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31039757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15378788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,72 +791,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings_local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="43" selection-end="43" vertical-scroll-proportion="0.18052256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="2917" selection-end="2927" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/lib/angular/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="91" selection-end="203" vertical-scroll-proportion="-4.071429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="423" selection-end="526" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-12.821428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="30" selection-start="4169" selection-end="4169" vertical-scroll-proportion="-9.428572">
           <folding />
         </state>
       </provider>
@@ -718,16 +830,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="10" selection-start="244" selection-end="5841" vertical-scroll-proportion="-32.464287">
+          <folding>
+            <marker date="1386043084000" expanded="true" signature="260:1233" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="291:566" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="330:470" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="508:551" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="597:896" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="636:800" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="664:681" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="838:881" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="927:1222" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="966:1123" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1161:1207" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="1252:1319" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1320:1353" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="1372:1434" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1447:2295" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1493:1594" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1640:1732" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1778:1870" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="1916:2008" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2054:2146" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2192:2284" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="2314:2329" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2330:2838" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2356:2827" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2404:2444" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2492:2539" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2587:2629" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2677:2719" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2767:2812" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="2869:2902" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2939:3552" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="2999:3541" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3030:3525" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="3077:3094" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3095:3154" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3193:3244" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3283:3333" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3372:3418" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3457:3506" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="3570:3617" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3618:3650" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="3668:3730" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3743:4591" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3789:3890" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="3936:4028" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4074:4166" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4212:4304" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4350:4442" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4488:4580" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="4610:4625" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4626:5134" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4652:5123" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4700:4740" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4788:4835" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4883:4925" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="4973:5015" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5063:5108" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="5165:5198" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5235:5840" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5277:5829" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5318:5813" placeholder="..." />
+            <marker date="1386043084000" expanded="false" signature="5365:5382" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5383:5442" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5481:5532" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5571:5621" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5660:5706" placeholder="..." />
+            <marker date="1386043084000" expanded="true" signature="5745:5794" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="130" selection-end="251" vertical-scroll-proportion="0.087235995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="102" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-6.785714">
+        <state line="78" column="28" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-16.857143">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="4" selection-start="2951" selection-end="3139" vertical-scroll-proportion="0.12190476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/offers/current.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="376" selection-end="376" vertical-scroll-proportion="0.108778626">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="22" selection-start="2713" selection-end="2713" vertical-scroll-proportion="-25.107143">
+          <folding>
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="31" selection-start="4052" selection-end="4052" vertical-scroll-proportion="-31.384615">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="81" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+        <state line="47" column="38" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-34.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="4145" vertical-scroll-proportion="-0.0">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.39396796">
           <folding />
         </state>
       </provider>

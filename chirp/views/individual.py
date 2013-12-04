@@ -6,10 +6,10 @@ from flask.ext.login import login_required
 from chirp import app
 
 
-@app.route('/dashboard')
-@login_required
-def dashboard():
-    return render_template('dashboard/dashboard.html')
+# @app.route('/dashboard')
+# @login_required
+# def dashboard():
+#     return render_template('dashboard/dashboard.html')
 
 
 @app.route('/')
@@ -22,6 +22,10 @@ def index():
 def home():
     return render_template('base/base.html')
 
+@app.errorhandler(404)
+def page_not_found(e):
+    # your processing here
+    return render_template('base/base.html')
 
 # @app.route('/create')
 # @login_required
