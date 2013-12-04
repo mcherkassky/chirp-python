@@ -84,7 +84,7 @@
     </div>
     <hr class="faded" style="margin-top:5px; margin-bottom:0px">
     <div ng-controller="OfferCtrl">
-        <div class="table-row" ng-repeat="offer in offers" >
+        <div class="table-row" ng-repeat="offer in claimed" >
             <div class="row">
                 <div class="col-md-4" style="padding-left:20px">
                     [[offer.title]]
@@ -99,7 +99,7 @@
                     86
                 </div>
                 <div class="col-md-2">
-                    $0.79
+                    $[[offer.bid]]
                 </div>
             </div>
 

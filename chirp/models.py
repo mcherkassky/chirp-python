@@ -172,6 +172,7 @@ class Offer(Document, Base):
     @property
     def ad(self):
         return Ad.objects.get(id=self.ad_id)
+
     def claim(self):
         self.claimed = True
         self.save()

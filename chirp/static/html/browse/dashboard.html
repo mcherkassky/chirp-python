@@ -74,7 +74,7 @@
 </div>
 <hr class="faded" style="margin-top:5px; margin-bottom:0px">
 <div>
-    <div class="table-row" ng-repeat="offer in offers" >
+    <div class="table-row" ng-repeat="offer in claimed" >
         <div class="row">
             <div class="col-md-4" style="padding-left:20px">
                 [[offer.title]]
@@ -89,7 +89,7 @@
                 86
             </div>
             <div class="col-md-2">
-                $0.79
+                $[[offer.bid]]
             </div>
         </div>
 
@@ -140,7 +140,9 @@
 </div>
 <hr class="faded" style="margin-top:5px; margin-bottom:0px">
 <div ng-controller="OfferCtrl">
-    <div ng-repeat="offer in offers" >
+    <div ng-hide="ended.length" style="font-weight: 200;font-size: 16px;text-align: center;margin-top: 20px;"> No expired offers </div>
+    <div ng-repeat="offer in ended" >
+
         <div class="row table-row">
             <div class="col-md-4" style="padding-left:20px">
                 [[offer.title]]

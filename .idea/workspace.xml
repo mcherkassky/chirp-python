@@ -2,34 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c159d9b-642d-4490-bfb3-ab5f1cd16852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/offers/current.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" afterPath="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/api.py" afterPath="$PROJECT_DIR$/chirp/views/api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/js/app.js" afterPath="$PROJECT_DIR$/chirp/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/base.html" afterPath="$PROJECT_DIR$/chirp/templates/base/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/home.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/individual.py" afterPath="$PROJECT_DIR$/chirp/views/individual.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/models.py" afterPath="$PROJECT_DIR$/chirp/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chirp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386046046826" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195340817" ignored="false" />
     <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187949390" ignored="false" />
-    <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385781434650" ignored="false" />
-    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386045242859" ignored="false" />
+    <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386196287063" ignored="false" />
+    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195692797" ignored="false" />
     <file path="/index.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386000026939" ignored="false" />
     <file path="/map.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385699380815" ignored="false" />
     <file path="/template.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385708873653" ignored="false" />
     <file path="/views.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385857423524" ignored="false" />
     <file path="/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
-    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193333361" ignored="false" />
+    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195894944" ignored="false" />
     <file path="/base.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385702665573" ignored="false" />
     <file path="/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385858941620" ignored="false" />
     <file path="/individual.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386044411052" ignored="false" />
     <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386049304808" ignored="false" />
-    <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193412743" ignored="false" />
+    <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195385377" ignored="false" />
     <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386192987279" ignored="false" />
     <file path="/auth.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386020798149" ignored="false" />
     <file path="/api.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193057891" ignored="false" />
@@ -101,8 +96,11 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="28" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-16.857143">
-              <folding />
+            <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-29.178572">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,28 +108,18 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="38" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-34.346153">
+            <state line="46" column="43" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="22" selection-start="2713" selection-end="2713" vertical-scroll-proportion="-25.107143">
+            <state line="141" column="30" selection-start="4431" selection-end="4431" vertical-scroll-proportion="0.7137476">
               <folding>
-                <element signature="n#style#0;n#i#0;n#span#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,96 +128,26 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="31" selection-start="4052" selection-end="4052" vertical-scroll-proportion="-31.384615">
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_left_nav.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.39396796">
+            <state line="161" column="0" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
+      <file leaf-file-name="_left_nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="10" selection-start="244" selection-end="5841" vertical-scroll-proportion="-32.464287">
-              <folding>
-                <marker date="1386043084000" expanded="true" signature="260:1233" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="291:566" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="330:470" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="508:551" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="597:896" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="636:800" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="664:681" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="838:881" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="927:1222" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="966:1123" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1161:1207" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="1252:1319" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1320:1353" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="1372:1434" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1447:2295" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1493:1594" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1640:1732" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1778:1870" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="1916:2008" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2054:2146" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2192:2284" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="2314:2329" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2330:2838" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2356:2827" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2404:2444" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2492:2539" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2587:2629" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2677:2719" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2767:2812" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="2869:2902" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2939:3552" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="2999:3541" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3030:3525" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="3077:3094" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3095:3154" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3193:3244" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3283:3333" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3372:3418" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3457:3506" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="3570:3617" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3618:3650" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="3668:3730" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3743:4591" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3789:3890" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="3936:4028" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4074:4166" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4212:4304" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4350:4442" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4488:4580" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="4610:4625" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4626:5134" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4652:5123" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4700:4740" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4788:4835" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4883:4925" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="4973:5015" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5063:5108" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="5165:5198" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5235:5840" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5277:5829" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5318:5813" placeholder="..." />
-                <marker date="1386043084000" expanded="false" signature="5365:5382" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5383:5442" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5481:5532" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5571:5621" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5660:5706" placeholder="..." />
-                <marker date="1386043084000" expanded="true" signature="5745:5794" placeholder="..." />
-              </folding>
+            <state line="25" column="33" selection-start="879" selection-end="879" vertical-scroll-proportion="-16.964285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -252,22 +170,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chirp/templates/index/index.html" />
         <option value="$PROJECT_DIR$/chirp/templates/index/signin.html" />
         <option value="$PROJECT_DIR$/chirp/views/auth.py" />
         <option value="$PROJECT_DIR$/chirp/templates/home/home.html" />
         <option value="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
         <option value="$PROJECT_DIR$/chirp/static/css/create.css" />
-        <option value="$PROJECT_DIR$/chirp/templates/base/base.html" />
         <option value="$PROJECT_DIR$/chirp/views/individual.py" />
-        <option value="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
-        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
-        <option value="$PROJECT_DIR$/chirp/models.py" />
         <option value="$PROJECT_DIR$/chirp/views/api.py" />
         <option value="$PROJECT_DIR$/chirp/static/html/offers/claimed.html" />
         <option value="$PROJECT_DIR$/chirp/static/html/offers/current.html" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
         <option value="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
+        <option value="$PROJECT_DIR$/chirp/templates/base/base.html" />
         <option value="$PROJECT_DIR$/chirp/static/js/app.js" />
+        <option value="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/chirp/models.py" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
       </list>
     </option>
   </component>
@@ -303,7 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -532,17 +449,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spotlight.zefr.com" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -672,8 +590,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.chirp" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
+      <item index="1" class="java.lang.String" itemvalue="Python.chirp" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -715,11 +633,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1475015" sideWeight="0.84621215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14930765" sideWeight="0.8469697" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15378788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1530303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -793,116 +711,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chirp/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="91" selection-end="203" vertical-scroll-proportion="-4.071429">
-          <folding />
-        </state>
+        <state line="6" column="4" selection-start="91" selection-end="203" vertical-scroll-proportion="-4.071429" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/css/create.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="525" selection-end="525" vertical-scroll-proportion="-5.8461537">
-          <folding />
-        </state>
+        <state line="26" column="13" selection-start="525" selection-end="525" vertical-scroll-proportion="-5.8461537" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="9" selection-start="682" selection-end="2226" vertical-scroll-proportion="-5.428571">
-          <folding />
-        </state>
+        <state line="58" column="9" selection-start="682" selection-end="2226" vertical-scroll-proportion="-5.428571" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="86" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-2.2777777">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="10" selection-start="244" selection-end="5841" vertical-scroll-proportion="-32.464287">
-          <folding>
-            <marker date="1386043084000" expanded="true" signature="260:1233" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="291:566" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="330:470" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="508:551" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="597:896" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="636:800" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="664:681" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="838:881" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="927:1222" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="966:1123" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1161:1207" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="1252:1319" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1320:1353" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="1372:1434" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1447:2295" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1493:1594" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1640:1732" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1778:1870" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="1916:2008" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2054:2146" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2192:2284" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="2314:2329" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2330:2838" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2356:2827" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2404:2444" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2492:2539" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2587:2629" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2677:2719" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2767:2812" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="2869:2902" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2939:3552" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="2999:3541" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3030:3525" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="3077:3094" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3095:3154" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3193:3244" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3283:3333" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3372:3418" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3457:3506" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="3570:3617" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3618:3650" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="3668:3730" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3743:4591" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3789:3890" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="3936:4028" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4074:4166" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4212:4304" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4350:4442" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4488:4580" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="4610:4625" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4626:5134" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4652:5123" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4700:4740" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4788:4835" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4883:4925" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="4973:5015" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5063:5108" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="5165:5198" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5235:5840" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5277:5829" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5318:5813" placeholder="..." />
-            <marker date="1386043084000" expanded="false" signature="5365:5382" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5383:5442" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5481:5532" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5571:5621" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5660:5706" placeholder="..." />
-            <marker date="1386043084000" expanded="true" signature="5745:5794" placeholder="..." />
-          </folding>
-        </state>
+        <state line="72" column="86" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-2.2777777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
@@ -919,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="28" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-16.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/css/nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="4" selection-start="2951" selection-end="3139" vertical-scroll-proportion="0.12190476">
@@ -936,86 +758,76 @@
     <entry file="file://$PROJECT_DIR$/chirp/static/html/offers/current.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="41" selection-start="376" selection-end="376" vertical-scroll-proportion="0.108778626">
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="2713" selection-end="2713" vertical-scroll-proportion="-25.107143">
-          <folding>
-            <element signature="n#style#0;n#i#0;n#span#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#8;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="31" selection-start="4052" selection-end="4052" vertical-scroll-proportion="-31.384615">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="1497" selection-end="1497" vertical-scroll-proportion="-34.346153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="4145" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-29.178572">
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="43" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="0" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="34" selection-start="3494" selection-end="3494" vertical-scroll-proportion="0.7693032">
+          <folding>
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.39396796">
+        <state line="25" column="33" selection-start="879" selection-end="879" vertical-scroll-proportion="-16.964285">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="30" selection-start="4431" selection-end="4431" vertical-scroll-proportion="0.7137476">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
