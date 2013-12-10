@@ -3,12 +3,23 @@ from flask_login import UserMixin
 import json
 
 from bs4 import *
-from bson import json_util
+from bson import json_util, ObjectId, DBRef
+from mongoengine.dereference import DeReference
 
 from settings import *
 from url import *
 
 from datetime import datetime
+from json import JSONEncoder
+
+def mongoencode(obj):
+    if isinstance(obj, ObjectId):
+        return str(obj)
+    elif isinstance(obj, DBRef):
+        obj_db = DeReference()({'data': obj})['data']
+        return obj_db._data
+    else:
+        return obj._data
 
 def url_image(url):
     r = requests.get(url)
@@ -20,26 +31,27 @@ def url_image(url):
 
     return img
 
-def serialize(dict):
-
-    dict['id'] = str(dict['_id'])
-    dict.pop('_id')
-    return dict
-
 class CustomQuerySet(QuerySet):
-    def to_json(self, *args, **kwargs):
-        return json_util.dumps([serialize(obj) for obj in self.as_pymongo()], *args, **kwargs)
+    # def to_json(self, *args, **kwargs):
+    #     import pdb; pdb.set_trace()
+    #     return json_util.dumps([serialize(obj) for obj in self.as_pymongo()], *args, **kwargs)
+    def json(self):
+        return '[' + ','.join([obj.json() for obj in self]) + ']'
 
 class Base(object):
     meta = {'allow_inheritance': True,
             'queryset_class': CustomQuerySet}
 
-    def to_json(self, *args, **kwargs):
-        return json_util.dumps(serialize(self.to_mongo()),  *args, **kwargs)
+    # def serialize(self, *args, **kwargs):
+    #     import pdb; pdb.set_trace()
+        # return json_util.dumps(serialize(self.to_mongo()),  *args, **kwargs)
+
+    def json(self):
+        return json.dumps(self, default=mongoencode)
 
     @classmethod
     def build_from_json(cls):
-        pass
+        print 'poop'
 
 class Url(Document, Base):
     # id = SequenceField(primary_key=True)
@@ -102,6 +114,9 @@ class User(Document, UserMixin, Base):
         for ad in ads:
             Offer.create(self, ad)
 
+    def create_offer(self, ad):
+        Offer.create(self, ad)
+
     @property
     def offers(self):
         return Offer.objects.filter(user_id=self.id)
@@ -125,6 +140,14 @@ class Ad(Document, Base):
     owner = ObjectIdField()
 
     claimed = BooleanField(default=False)
+
+    def create_offers(self):
+        users = self.eligible_users()
+        for user in users:
+            user.create_offer(self)
+
+    def eligible_users(self):
+        return User.objects.all()
 
     @classmethod
     def build_from_json(cls, json):
@@ -152,6 +175,9 @@ class Ad(Document, Base):
         return response
 
 class Offer(Document, Base):
+    ad = ReferenceField('Ad')
+    url = ReferenceField('Url')
+
     ad_id = ObjectIdField()
     user_id = ObjectIdField()
     title = StringField()
@@ -163,15 +189,16 @@ class Offer(Document, Base):
     @classmethod
     def create(cls, user, ad):
         offer = cls(user_id=user.id,
+                    ad=ad,
                     ad_id=ad.id,
                     title=ad.title,
                     img=ad.img,
                     bid=ad.bid)
         offer.save()
 
-    @property
-    def ad(self):
-        return Ad.objects.get(id=self.ad_id)
+    # @property
+    # def ad(self):
+    #     return Ad.objects.get(id=self.ad_id)
 
     def claim(self):
         self.claimed = True

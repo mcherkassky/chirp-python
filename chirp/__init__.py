@@ -3,6 +3,7 @@ __author__ = 'mcherkassky'
 from flask import Flask
 from flask.ext.login import LoginManager
 
+
 import db
 
 import settings

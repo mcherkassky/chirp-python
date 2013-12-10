@@ -2,69 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c159d9b-642d-4490-bfb3-ab5f1cd16852" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/base/base.html" afterPath="$PROJECT_DIR$/chirp/templates/base/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/__init__.py" afterPath="$PROJECT_DIR$/chirp/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/api.py" afterPath="$PROJECT_DIR$/chirp/views/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/js/app.js" afterPath="$PROJECT_DIR$/chirp/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/views/auth.py" afterPath="$PROJECT_DIR$/chirp/views/auth.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/static/html/browse/home.html" afterPath="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chirp/models.py" afterPath="$PROJECT_DIR$/chirp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chirp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195340817" ignored="false" />
-    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187949390" ignored="false" />
-    <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386196287063" ignored="false" />
-    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195692797" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386620488886" ignored="false" />
+    <file path="/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386284054172" ignored="false" />
+    <file path="/dashboard.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386280736164" ignored="false" />
+    <file path="/home.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386617826750" ignored="false" />
     <file path="/index.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386000026939" ignored="false" />
     <file path="/map.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385699380815" ignored="false" />
     <file path="/template.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385708873653" ignored="false" />
     <file path="/views.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385857423524" ignored="false" />
     <file path="/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
-    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195894944" ignored="false" />
+    <file path="/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386284876582" ignored="false" />
     <file path="/base.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385702665573" ignored="false" />
-    <file path="/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385858941620" ignored="false" />
+    <file path="/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386651538099" ignored="false" />
     <file path="/individual.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386044411052" ignored="false" />
-    <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386049304808" ignored="false" />
+    <file path="/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386363961472" ignored="false" />
     <file path="/_left_nav.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386195385377" ignored="false" />
-    <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386192987279" ignored="false" />
-    <file path="/auth.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386020798149" ignored="false" />
-    <file path="/api.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193057891" ignored="false" />
+    <file path="/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386653162177" ignored="false" />
+    <file path="/auth.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386646150261" ignored="false" />
+    <file path="/api.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386618628339" ignored="false" />
     <file path="/flask_login.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385861986374" ignored="false" />
     <file path="/settings.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385958073428" ignored="false" />
-    <file path="/a.dummy" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385957400907" ignored="false" />
+    <file path="/a.dummy" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386363836033" ignored="false" />
     <file path="/settings_local.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385958095475" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/manage.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/ad.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/campaigns/create/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187953572" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/campaigns/create/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386186909354" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/manage.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386344431696" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/ad.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/campaigns/create/create.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/campaigns/create/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386348172211" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/lib/zclip/jquery.zclip.min.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1385998884985" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/remarketing/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/html/remarketing/remarketing.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
     <file path="/remarketing.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386001988979" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/remarketing/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/js/remarketing/app.js" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386360204955" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/features/terrain.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386082438602" ignored="false" />
     <file path="/terrain.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386012882159" ignored="false" />
-    <file path="/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386177787186" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386355888677" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/account.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386360204955" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/templates/base/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/html/remarketing/test.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386016272258" ignored="false" />
-    <file path="$PROJECT_DIR$/../listen/youtube/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386080820226" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/videoset.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../listen/youtube/__init__.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386599959319" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/views/videoset.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386258366027" ignored="false" />
     <file path="/videoset.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386178804083" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/tasks/rt.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386096332865" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/discovery/models.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386173153661" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/create.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/create.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386258366027" ignored="false" />
     <file path="/create.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386184407700" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/new_campaign.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/campaigns/create/new_campaign.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386258366027" ignored="false" />
     <file path="/new_campaign.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386184818419" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/adwords.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386340305683" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/adwords.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
     <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/data_factory.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386185297107" ignored="false" />
-    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/custom.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187760469" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/data_factory.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386348172211" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/css/custom.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386261098622" ignored="false" />
     <file path="/custom.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386187365296" ignored="false" />
     <file path="/current.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386193288688" ignored="false" />
+    <file path="/campaign.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386258999362" ignored="false" />
+    <file path="/factories.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386260362075" ignored="false" />
+    <file path="/data_factory.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386341741735" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/spotlight/static/lib/datepicker/datepicker.css" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386340305683" ignored="false" />
+    <file path="/app.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386274640596" ignored="false" />
+    <file path="/run.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386274824229" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/mediator.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386614647859" ignored="false" />
+    <file path="/mediator.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386341577992" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/zefr/adtech/models/remarketing.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386348172211" ignored="false" />
+    <file path="/remarketing.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386343766010" ignored="false" />
+    <file path="/adwords.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386356078976" ignored="false" />
+    <file path="$PROJECT_DIR$/../spotlight.zefr.com/tests/features/steps/admin_steps.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386360204955" ignored="false" />
+    <file path="/admin_steps.py" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386355689783" ignored="false" />
+    <file path="$PROJECT_DIR$/../listen/youtube/templates/base/base.html" changelist="1c159d9b-642d-4490-bfb3-ab5f1cd16852" time="1386363964285" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +105,30 @@
       <file leaf-file-name="api.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+            <state line="17" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chirp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.5652174">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,11 +136,8 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-29.178572">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-0.6785714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,45 +145,25 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="43" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+            <state line="48" column="0" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
+      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chirp/views/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="30" selection-start="4431" selection-end="4431" vertical-scroll-proportion="0.7137476">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="0" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
+            <state line="39" column="33" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_left_nav.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
+      <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="879" selection-end="879" vertical-scroll-proportion="-16.964285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="5" column="42" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,30 +187,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chirp/templates/index/signin.html" />
-        <option value="$PROJECT_DIR$/chirp/views/auth.py" />
-        <option value="$PROJECT_DIR$/chirp/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/chirp/static/html/browse/create.html" />
-        <option value="$PROJECT_DIR$/chirp/static/css/create.css" />
         <option value="$PROJECT_DIR$/chirp/views/individual.py" />
-        <option value="$PROJECT_DIR$/chirp/views/api.py" />
         <option value="$PROJECT_DIR$/chirp/static/html/offers/claimed.html" />
         <option value="$PROJECT_DIR$/chirp/static/html/offers/current.html" />
-        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
         <option value="$PROJECT_DIR$/chirp/templates/base/_left_nav.html" />
         <option value="$PROJECT_DIR$/chirp/templates/base/base.html" />
-        <option value="$PROJECT_DIR$/chirp/static/js/app.js" />
         <option value="$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html" />
-        <option value="$PROJECT_DIR$/chirp/models.py" />
+        <option value="$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/flask/app.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/chirp/templates/create/create.html" />
+        <option value="$PROJECT_DIR$/chirp/static/js/app.js" />
         <option value="$PROJECT_DIR$/chirp/static/html/browse/dashboard.html" />
+        <option value="$PROJECT_DIR$/chirp/static/html/browse/home.html" />
+        <option value="$PROJECT_DIR$/chirp/views/api.py" />
+        <option value="$PROJECT_DIR$/chirp/views/auth.py" />
+        <option value="$PROJECT_DIR$/chirp/__init__.py" />
+        <option value="$PROJECT_DIR$/chirp/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1707" />
-    <option name="y" value="-329" />
-    <option name="width" value="1707" />
-    <option name="height" value="1440" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,6 +237,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,185 +288,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="create" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="browse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chirp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,7 +297,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spotlight.zefr.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -626,23 +466,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1707" y="-329" width="1707" height="1440" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14930765" sideWeight="0.8469697" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.273906" sideWeight="0.75076455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1530303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24923548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -709,52 +549,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chirp/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="91" selection-end="203" vertical-scroll-proportion="-4.071429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/css/create.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="525" selection-end="525" vertical-scroll-proportion="-5.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="961" selection-end="962" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="9" selection-start="682" selection-end="2226" vertical-scroll-proportion="-5.428571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="86" selection-start="3770" selection-end="3770" vertical-scroll-proportion="-2.2777777" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/individual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="130" selection-end="251" vertical-scroll-proportion="0.087235995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/css/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="4" selection-start="2951" selection-end="3139" vertical-scroll-proportion="0.12190476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/html/offers/current.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="41" selection-start="376" selection-end="376" vertical-scroll-proportion="0.108778626">
@@ -762,71 +556,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-29.178572">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chirp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="0" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="34" selection-start="3494" selection-end="3494" vertical-scroll-proportion="0.7693032">
-          <folding>
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386195985000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/tweet/lib/python2.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="757" column="47" selection-start="33457" selection-end="33457" vertical-scroll-proportion="0.6067316">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/templates/base/_left_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="879" selection-end="879" vertical-scroll-proportion="-16.964285">
+        <state line="25" column="33" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/img/ajax-loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/create/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="46" selection-start="4224" selection-end="4224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="30" selection-start="4431" selection-end="4431" vertical-scroll-proportion="0.7137476">
+        <state line="48" column="56" selection-start="1687" selection-end="1688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/html/browse/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="57" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/views/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/views/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="33" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="9" selection-start="3586" selection-end="3586" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.20518358">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#8;n#!!top" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chirp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="33" selection-start="847" selection-end="847" vertical-scroll-proportion="0.5652174">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

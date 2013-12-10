@@ -35,7 +35,7 @@
                                     EST. EARN
                                 </div>
                                 <div class="offer-value">
-                                    $20
+                                    [[current_user.followers.length * .1 * offer.bid | currency:"$"]]
                                 </div>
                             </div>
                             <div class="col-md-3" style="text-align:center;margin-left:10px">
@@ -43,7 +43,7 @@
                                     EST. CLICKS
                                 </div>
                                 <div class="offer-value">
-                                    85
+                                    [[current_user.followers.length * .1 | number:0]]
                                 </div>
                             </div>
                             <div class="col-md-3" style="text-align:center;margin-left:10px">
@@ -51,7 +51,7 @@
                                     PER CLICK
                                 </div>
                                 <div class="offer-value">
-                                    $0.75
+                                    [[offer.bid | currency:"$"]]
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,12 @@
                                     <i class="fa fa-files-o"></i>
                                 </a>
                                 <a ng-click="open_tweet([[url.url]])" class="action-button btn btn-primary"><i class="fa fa-twitter"></i></a>
+                                <a ng-click="open_tweet([[url.url]])" style="width:25px" class="action-button btn btn-primary"><i class="fa fa-facebook"></i></a>
                             </span>
                         </div>
+                        <span style="position:absolute; color: #b8c3c9; padding-left:10px; top:165px" class="col-md-1">
+                            &#10006;
+                        </span>
                     </div>
                 </div>
             </div>

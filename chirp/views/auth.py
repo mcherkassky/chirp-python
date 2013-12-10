@@ -38,7 +38,6 @@ def get_twitter_verification():
 
     #store in a db
     from chirp.models import User
-
     tweepy_user = api.me()
     try:
         user = User.objects.get(screen_name=tweepy_user.screen_name)

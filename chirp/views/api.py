@@ -8,6 +8,10 @@ from flask.ext.login import current_user
 import json
 from chirp.models import *
 
+@app.route('/current_user')
+def user():
+    return current_user.to_json()
+
 @app.route('/offers')
 def offers():
     offers = current_user.offers
@@ -18,6 +22,8 @@ def campaigns():
     data = request.json
     ad = Ad.build_from_json(data)
     ad.save()
+
+    ad.create_offers()
 
     return ad.to_json()
 

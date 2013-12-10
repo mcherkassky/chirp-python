@@ -44,7 +44,9 @@ var app = angular.module('app', ['ngRoute','ngResource','ui.bootstrap','ui.route
 //    });
 });
 
-app.run(function($rootScope, OfferFactory){
+app.run(function($rootScope, OfferFactory, UserFactory){
+    $rootScope.current_user = UserFactory.get();
+
     OfferFactory.query(function(data){
         $rootScope.offers = data.filter(function(obj){return obj.claimed == false});
         $rootScope.claimed = data.filter(function(obj){return obj.claimed == true});
@@ -96,6 +98,10 @@ app.factory('OfferFactory', function($resource){
         {
             edit: {method:"PUT"}
         })
+});
+
+app.factory('UserFactory', function($resource){
+    return $resource('/current_user')
 });
 
 app.factory('UrlFactory', function($resource){
@@ -191,13 +197,24 @@ app.controller('CampaignCtrl', function($scope, $rootScope, CampaignFactory, $ti
                         day: currentDate.getDate(),
                         date:currentDate};
 
+//    $scope.start_date = currentDate.getDate();
+//    console.log($scope.start_date.getDate())
+//    $scope.end_date = currentDate;
+
     $('.input-daterange').datepicker()
         .on('changeDate', function(e){
 
             $scope.$apply(function(){
-                $scope[$(e.target).attr('data-model')]['day'] = e.date.getDate();
-                $scope[$(e.target).attr('data-model')]['month'] = $rootScope.monthNames[e.date.getMonth()];
-                $scope[$(e.target).attr('data-model')]['date'] = e.date
+                var start_date = $('#start-date').datepicker('getDate')
+                var end_date = $('#end-date').datepicker('getDate')
+
+                $scope.start_date = {month: $rootScope.monthNames[start_date.getMonth()],
+                                    day: start_date.getDate(),
+                                    date:start_date}
+
+                $scope.end_date = {month: $rootScope.monthNames[end_date.getMonth()],
+                                    day: end_date.getDate(),
+                                    date:end_date};
 
                 $scope.days = Math.round(Math.abs($scope.end_date.date - $scope.start_date.date)/oneDay)
             })
