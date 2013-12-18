@@ -176,24 +176,15 @@ class Ad(Document, Base):
 
 class Offer(Document, Base):
     ad = ReferenceField('Ad')
-    url = ReferenceField('Url')
 
-    ad_id = ObjectIdField()
     user_id = ObjectIdField()
-    title = StringField()
-    img = StringField()
-    bid = FloatField()
 
     claimed = BooleanField(default=False)
 
     @classmethod
     def create(cls, user, ad):
         offer = cls(user_id=user.id,
-                    ad=ad,
-                    ad_id=ad.id,
-                    title=ad.title,
-                    img=ad.img,
-                    bid=ad.bid)
+                    ad=ad)
         offer.save()
 
     # @property

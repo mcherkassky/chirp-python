@@ -4,7 +4,7 @@
             <div class="thumbnail clearfix" ng-mouseenter="show_actions=!show_actions" ng-mouseleave="show_actions=!show_actions">
                 <div class="caption">
                     <div>
-                        [[ offer.title ]]
+                        [[ offer.ad.title ]]
                     </div>
                     <div style="font-size:16px">
                         $$ | 21 days remaining
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <img ng-cloak src="[[ offer.img ]]" style="width:100%;position:relative;top:-170px">
+                <img ng-cloak src="[[ offer.ad.img ]]" style="width:100%;position:relative;top:-170px">
             </div>
             <div class="claim-offer" ng-show="show_offer">
                 <div class="well well-large">

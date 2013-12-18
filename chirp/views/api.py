@@ -15,7 +15,7 @@ def user():
 @app.route('/offers')
 def offers():
     offers = current_user.offers
-    return offers.to_json()
+    return offers.json()
 
 @app.route('/campaigns', methods=['POST'])
 def campaigns():
@@ -25,13 +25,13 @@ def campaigns():
 
     ad.create_offers()
 
-    return ad.to_json()
+    return ad.json()
 
 @app.route('/offers/<offer_id>', methods=['POST'])
 def offer_id(offer_id):
     offer = Offer.objects.get(id=offer_id)
     offer.claim()
-    return offer.to_json()
+    return offer.json()
 
 @app.route('/offers/<offer_id>/url', methods=['GET'])
 def offer_url(offer_id):

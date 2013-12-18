@@ -50,6 +50,7 @@ app.run(function($rootScope, OfferFactory, UserFactory){
     OfferFactory.query(function(data){
         $rootScope.offers = data.filter(function(obj){return obj.claimed == false});
         $rootScope.claimed = data.filter(function(obj){return obj.claimed == true});
+        debugger;
     });
 
     $rootScope.count = function(element, counter){
